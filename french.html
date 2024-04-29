@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Amr Hegazi</title>
+        <link rel="stylesheet" href="CSS/whole.css">
+        <link rel="shortcut icon" href="media/french/amrhegazi.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">    
+    </head>
+    </head>
+    <body class="fontEnglishMHFrench">
+        <main>
+            <nav class="navFrenchMH" id="frenchBackgroundMH">
+                <div class="rhs">
+                    <ul id="frenshAppearMH">
+                        <li class="teacher"><a href="mathMH.html">أحمد عصام</a></li>
+                        <li class="teacher"><a href="french.html">عمرو حجازي</a></li>
+                        <li class="teacher"><a href="PsychologySociology.html">علي صلاح</a></li>
+                    </ul>
+                    <a id="homeMH" id="homeMH" href="#">الصفحة الرئيسية</a>
+                    <button id="searchMH"><span><i class="fa-solid fa-magnifying-glass"></i></span></button>
+                    <input onkeyup="search_teacher()" type="text" id="searchBarMH" placeholder="ابحث عن مدرس" name="search">
+                </div>
+                <div class="lhs">
+                    <a href="signUpMH.html">انشاء حساب</a>
+                    <a href="loginMH.html">تسجيل الدخول</a>
+                </div>
+            </nav>
+            <section class="sectionAFrenchMH">
+                <div class="lhs">
+                    <img src="img/amrhegazi.jpg" alt="Monsieur / Amr Hegazi">
+                </div>
+                <div class="rhs">
+                    <h1>Monsieur / Amr Hegazi</h1>
+                    <p><span><i class="fa-solid fa-graduation-cap"></i></span>troisieme annee du secondaire</p>
+                    <p><span><i class="fa-solid fa-language"></i></span>langue francaise</p>
+                </div>
+            </section>
+            <section class="sectionBFrenchMH">
+                <details id="detailsMH" class="detailsFrenchMH">
+                    <summary>Biographie</summary>
+                    <p>Professeur de langue française, Écrivain aux journaux quotidiens, le progrès égyptien au septième jour et à la TV</p>
+                </details>
+            </section>
+            <section class="sectionCFrenchMH">
+                <details id="tableMH" class="detailsFrenchMH">
+                    <summary>Rendez-vous au centre éducatif</summary>
+                        <table>
+                            <tr>
+                                <th>المواعيد و الايام</th>
+                                <th>8 : 30</th>
+                                <th>10 : 30</th>
+                                <th>01 : 00</th>
+                                <th>03: 30</th>
+                            </tr>
+                            <tr>
+                                <th>السبت</th>
+                                <td>بين الجناين</td>
+                                <td>الاحمد</td>
+                                <td>التحرير</td>
+                                <td>___</td>
+                            </tr>
+                            <tr>
+                                <th>الاحد</th>
+                                <td>نبيهه</td>
+                                <td>الرحماني</td>
+                                <td>نيو ستار</td>
+                                <td>MBC</td>
+                            </tr>
+                            <tr>
+                                <th>الاثنين</th>
+                                <td>Trust</td>
+                                <td>اكسفورد</td>
+                                <td>المصري</td>
+                                <td>الرواد</td>
+                            </tr>
+                            <tr>
+                                <th>الثلاثاء</th>
+                                <td>MBC</td>
+                                <td>المصري</td>
+                                <td>نيو ستار</td>
+                                <td>___</td>
+                            </tr>
+                            <tr>
+                                <th>الاربعاء</th>
+                                <td>اكاديمية الوراق</td>
+                                <td>جلاكسي</td>
+                                <td>المنير</td>
+                                <td>___</td>
+                            </tr>
+                            <tr>
+                                <th>الخميس</th>
+                                <td>المنير</td>
+                                <td>OK</td>
+                                <td>المحور</td>
+                                <td>___</td>
+                            </tr>
+                            <tr>
+                                <th>الجمعة</th>
+                                <td>القمة</td>
+                                <td>بين الجناين</td>
+                                <td>VIP</td>
+                                <td>___</td>
+                            </tr>
+                        </table>
+                </details>
+            </section>
+            <section class="sectionDFrenchMH">
+                <details id="lessonsMH" class="detailsFrenchMH">
+                    <summary>Des lessons</summary>
+                    <button class="lec1" onclick="video1MH()">
+                        <i class="fa-solid fa-book"></i>
+                        <span>première leçon-Le club des sportifs</span>
+                    </button>
+                    <video id="frame1MH" controls>
+                        <source src="vid/المحاضرة الاولي فرنساوي.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <button class="lec2" onclick="video2MH()">
+                        <i class="fa-solid fa-book"></i>
+                        <span>deuxième leçon-Le club des gourmands</span>
+                    </button>
+                    <video id="frame2MH" controls>
+                        <source src="vid/المحاضرة الثانية فرنساوي.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>                    
+                    <button class="lec3" onclick="video3MH()">
+                        <i class="fa-solid fa-book"></i>
+                        <span>troisième leçon-Le club des explorateurs</span>
+                    </button>
+                    <video id="frame3MH" controls>
+                        <source src="vid/المحاضرة الثالثة فرنساوي.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <button class="lec4" onclick="video4MH()">
+                        <i class="fa-solid fa-book"></i>
+                        <span>quatrième leçon-Le club des voyageurs</span>
+                    </button>
+                    <video id="frame4MH" controls>
+                        <source src="vid/المحاضرة الرابعة فرنساوي.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>                
+                </details>
+            </section>
+            <footer class="frenchFooterMH">
+                <p>جميع الحقوق محفوظة ٢٠٢٤ <span>&#169;</span></p>
+                <div class="labels">
+                    <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <p>تابعنا علي </p>
+                </div>
+            </footer>
+        </main>
+        <script src="JS/whole.js"></script>
+    </body>
+</html>
